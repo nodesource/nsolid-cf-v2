@@ -1,0 +1,9 @@
+{
+  "name": "print-versions-6x",
+  "version": "1.0.0",
+  "engines" : {
+    "node" : "6.x"
+  },
+  "dependencies": {
+  }
+}

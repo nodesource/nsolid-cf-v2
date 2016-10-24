@@ -1,0 +1,18 @@
+---
+applications:
+- name:      nsolid-console
+  buildpack: git://github.com/nodesource/nsolid-buildpack-cf
+  memory:    512M
+  instances: 1
+  command:   bash launch-console.sh
+
+  # NSOLID_CONSOLE_STORAGE_URL - URL to the N|Solid Storage app
+  # NSOLID_CF_RUN_AGENT        - set to false to not have N|Solid Storage monitor this app
+
+  env:
+    NSOLID_CONSOLE_STORAGE_URL: https://nsolid-storage.local.pcfdev.io
+    NSOLID_CF_RUN_AGENT:        true
+
+  # apps using the N|Solid buildpack should bind to the nsolid-storage user-provided service
+  services:
+    - nsolid-storage

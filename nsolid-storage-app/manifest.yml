@@ -1,0 +1,24 @@
+---
+applications:
+- name:      nsolid-storage
+  buildpack: git://github.com/nodesource/nsolid-buildpack-cf
+  memory:    512M
+  instances: 1
+  command:   bash launch-storage.sh
+
+  # NSOLID_LICENSE - your N|Solid license should go in here
+  # NSOLID_STORAGE_NOTIFICATION_CONSOLE_URL - URL to the N|Solid Console, for use
+  #   in sending notification emails with links back to the console
+  # NSOLID_CF_RUN_AGENT - set to false to not have N|Solid Storage monitor itself
+  # NSOLID_CF_RUN_TUNNELS - should always be set to false for the N|Solid Storage server
+
+  env:
+    NSOLID_LICENSE:                          ''
+    NSOLID_STORAGE_NOTIFICATION_CONSOLE_URL: https://nsolid-console.local.pcfdev.io
+    NSOLID_CF_RUN_AGENT:                     true
+    NSOLID_CF_RUN_TUNNELS:                   false
+
+  # apps using the N|Solid buildpack should bind to the nsolid-storage
+  # user-provided service
+  services:
+    - nsolid-storage

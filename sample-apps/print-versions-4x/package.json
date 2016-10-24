@@ -1,0 +1,9 @@
+{
+  "name": "print-versions-4x",
+  "version": "1.0.0",
+  "engines" : {
+    "node" : "4.x"
+  },
+  "dependencies": {
+  }
+}

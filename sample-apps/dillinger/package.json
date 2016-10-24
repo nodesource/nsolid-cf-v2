@@ -1,0 +1,8 @@
+{
+  "name": "dillinger-cf",
+  "version": "1.0.0",
+  "description": "dillinger-cf - Dillinger for Cloud Foundry",
+  "dependencies": {
+    "dillinger": "git://github.com/joemccann/dillinger.git"
+  }
+}
