@@ -4,10 +4,10 @@
 PRODUCT=storage
 
 # bundle version
-BUNDLE=2.0.0
+BUNDLE=2.0.1
 
 # version of the product
-VERSION=1.0.1
+VERSION=1.0.2
 
 # name of the tarball that will be uploaded to Cloud Foundry via cf push
 TARBALL=nsolid-$PRODUCT-linux-x64.tar.gz
