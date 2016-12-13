@@ -1,0 +1,8 @@
+---
+applications:
+- name:      native
+  buildpack: nsolid_buildpack
+  memory:    128M
+  command:   node server
+  services:
+    - nsolid-storage

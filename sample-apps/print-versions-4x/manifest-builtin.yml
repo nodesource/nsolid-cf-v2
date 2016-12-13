@@ -1,0 +1,8 @@
+---
+applications:
+- name:      print-versions-4x
+  buildpack: nsolid_buildpack
+  memory:    128M
+  command:   node server
+  services:
+    - nsolid-storage

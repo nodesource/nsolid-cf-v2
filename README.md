@@ -33,6 +33,11 @@ the apps to Cloud Foundry.
   the Node.js 6.x Boron LTS line, via the `engines` property in the
   `package.json` file.
 
+* `native`
+
+  A Node.js application which uses a native package, to ensure that native
+  packages work with N|Solid in Cloud Foundry.
+
 
 Running N|Solid servers as Cloud Foundry apps
 ================================================================================

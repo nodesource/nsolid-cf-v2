@@ -1,8 +1,8 @@
 ---
 applications:
-- name:      dillinger
-  memory:    128M
-  command:   node dillinger-cf.js
+- name:      native
   buildpack: git://github.com/nodesource/nsolid-buildpack-cf
+  memory:    128M
+  command:   node server
   services:
     - nsolid-storage
