@@ -1,2 +1,5 @@
 node_modules
 tmp
+
+# don't keep manifests we're testing with, just the default
+manifest-*.yml

@@ -1,7 +1,7 @@
 ---
 applications:
 - name:      nsolid-storage
-  buildpack: git://github.com/nodesource/nsolid-buildpack-cf
+  buildpack: nsolid_buildpack
   memory:    512M
   instances: 1
   command:   bash launch-storage.sh
