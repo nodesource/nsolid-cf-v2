@@ -1,7 +1,7 @@
 ---
 applications:
 - name:      nsolid-console
-  buildpack: nsolid_buildpack
+  buildpack: https://github.com/nodesource/nsolid-buildpack-cf.git
   memory:    512M
   instances: 1
   command:   bash launch-console.sh
