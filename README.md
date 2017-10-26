@@ -28,10 +28,11 @@ the apps to Cloud Foundry.
 
 * `print-versions-6x`
 
-  Displays the versions of the Node.js and N|Solid Runtime components.
-  Specifically selects the version of the N|Solid Runtime that corresponds to
-  the Node.js 6.x Boron LTS line, via the `engines` property in the
-  `package.json` file.
+  Same as `print-version-4x`, but uses the Node.js 6.x Boron LTS line
+
+* `print-versions-8x`
+
+  Same as `print-version-4x`, but uses the Node.js 8.x Carbon LTS line
 
 * `native`
 
