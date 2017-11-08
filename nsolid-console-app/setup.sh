@@ -4,7 +4,7 @@
 PRODUCT=console
 
 # bundle version
-BUNDLE=2.4.0
+BUNDLE=2.4.1
 
 # version of the product
 VERSION=2.4.0
