@@ -45,5 +45,5 @@ the `manifest.yml` file in the `env` stanza.
   when having the N|Solid Storage's runtime agent connect back to itself
 
 
-[N|Solid buildpack]: https://github.com/nodesource/nsolid-buildpack-cf
-[ups-nsolid-storage]: https://github.com/nodesource/nsolid-buildpack-cf#user-provided-service-nsolid-storage
+[N|Solid buildpack]: https://github.com/nodesource/nsolid-buildpack-cf-v2
+[ups-nsolid-storage]: https://github.com/nodesource/nsolid-buildpack-cf-v2#user-provided-service-nsolid-storage

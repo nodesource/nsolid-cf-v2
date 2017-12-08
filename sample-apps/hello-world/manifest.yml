@@ -1,7 +1,7 @@
 ---
 applications:
 - name:      hello-world
-  buildpack: git://github.com/nodesource/nsolid-buildpack-cf
+  buildpack: git://github.com/nodesource/nsolid-buildpack-cf-v2
   memory:    128M
   command:   node server
   services:

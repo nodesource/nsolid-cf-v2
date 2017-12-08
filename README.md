@@ -1,8 +1,13 @@
-nsolid-cf - Using N|Solid on Cloud Foundry
+nsolid-cf-v2 - Using N|Solid v2 on Cloud Foundry
 ================================================================================
 
+**Note: this repository is for N|Solid version 2.  The repository for N|Solid
+version 3 is available at:
+https://github.com/nodesource/nsolid-cf-v3**
+
+
 This repository contains sample applications in the `sample-apps` directory
-that use the [Cloud Foundry buildpack for N|Solid][N|Solid buildpack].
+that use the [Cloud Foundry buildpack for N|Solid v2][N|Solid buildpack].
 
 Before pushing any apps, you should create the `nsolid-storage` user-provided
 service using the [instructions provided in the buildpack][ups-nsolid-storage].
@@ -45,13 +50,13 @@ Running N|Solid servers as Cloud Foundry apps
 
 This repository also contains the following components that allow you to run
 N|Solid servers as Cloud Foundry apps on Pivotal Cloud Foundry, using the
-[Cloud Foundry buildpack for N|Solid][N|Solid buildpack].
+[Cloud Foundry buildpack for N|Solid v2][N|Solid buildpack].
 
 * [nsolid-storage-app](nsolid-storage-app/README.md)
 
   Run the N|Solid Storage server as a Cloud Foundry app, allowing connections
   from the N|Solid Console and apps built with the Cloud Foundry buildpack for
-  N|Solid.
+  N|Solid v2.
 
 * [nsolid-console-app](nsolid-console-app/README.md)
 
@@ -63,7 +68,7 @@ General Notes
 ================================================================================
 
 See the documentation for the
-[Cloud Foundry buildpack for N|Solid][N|Solid buildpack] for more information
+[Cloud Foundry buildpack for N|Solid v2][N|Solid buildpack] for more information
 on:
 
 * selecting which version of the N|Solid Runtime to use with your app
@@ -100,5 +105,5 @@ MIT license. All rights not explicitly granted in the MIT license are reserved.
 See the included [LICENSE.md](LICENSE.md) file for more details.
 
 
-[N|Solid buildpack]: https://github.com/nodesource/nsolid-buildpack-cf
-[ups-nsolid-storage]: https://github.com/nodesource/nsolid-buildpack-cf#user-provided-service-nsolid-storage
+[N|Solid buildpack]: https://github.com/nodesource/nsolid-buildpack-cf-v2
+[ups-nsolid-storage]: https://github.com/nodesource/nsolid-buildpack-cf-v2#user-provided-service-nsolid-storage

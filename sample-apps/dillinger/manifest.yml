@@ -3,6 +3,6 @@ applications:
 - name:      dillinger
   memory:    128M
   command:   node dillinger-cf.js
-  buildpack: git://github.com/nodesource/nsolid-buildpack-cf
+  buildpack: git://github.com/nodesource/nsolid-buildpack-cf-v2
   services:
     - nsolid-storage
