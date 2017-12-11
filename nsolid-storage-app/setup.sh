@@ -4,7 +4,7 @@
 PRODUCT=storage
 
 # bundle version
-BUNDLE=2.4.2
+BUNDLE=2.4.3
 
 # version of the product
 VERSION=1.6.1
